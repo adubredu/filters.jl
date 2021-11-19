@@ -51,4 +51,4 @@ end
 xs = transpose(hcat([[x[1], x[2]] for x in xs]...))
 plot(xs[:,1], xs[:,2], label="ekf")
 plot!(gt_x, gt_y, label="Ground-Truth")
-plot!(z[1,:], z[2,:],label="Sensor reading")
+# plot!(z[1,:], z[2,:],label="Sensor reading")
